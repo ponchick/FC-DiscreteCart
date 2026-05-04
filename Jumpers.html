@@ -1,0 +1,232 @@
+<html>
+    <head>
+        <title>Jumpers setting</title>
+        <style>
+            td,th {
+                border: 1px solid black;
+                text-align: center;
+            }
+            table {
+                border: 1px solid black;
+                border-spacing: 0px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>ROM type</th>
+                <th>U1 type</th>
+                <th>U2 type</th>
+                <th>U3 74161</th>
+                <th>U4 7432</th>
+                <th>U5 7402</th>
+                <th>JP1 VRAM_A10</th>
+                <th>JP2 PRG_OE</th>
+                <th>JP3 CHR_PIN26</th>
+                <th>JP4 CHR_PIN27</th>
+                <th>JP5 161_Q2</th>
+                <th>JP6 161_Q3</th>
+                <th>JP7 PRG_A14</th>
+                <th>JP8 PRG_A15</th>
+                <th>JP9 PRG_A15</th>
+                <th>JP10 PRG_A16</th>
+                <th>JP11 PRG_A16</th>
+                <th>JP12 PRG_A17</th>
+            </tr>
+            <tr>
+                <td>NROM</td>
+                <td>ROM 16kB/32kB</td>
+                <td>ROM 8kB</td>
+                <td>&cross;</td>
+                <td>&cross;</td>
+                <td>&cross;</td>
+                <td>V/H<sup>*</sup></td>
+                <td><img src="img/2-2.png"></td>
+                <td><img src="img/2-2.png"></td>
+                <td><img src="img/3-3.png"></td>
+                <td><img src="img/2-0.png"></td>
+                <td><img src="img/3-0.png"></td>
+                <td><img src="img/2-1.png"></td>
+                <td><img src="img/2-0.png"></td>
+                <td><img src="img/2-2.png"></td>
+                <td><img src="img/2-0.png"></td>
+                <td><img src="img/2-2.png"></td>
+                <td><img src="img/3-3.png"></td>
+            </tr>
+            <tr>
+                <td>CNROM</td>
+                <td>ROM 16kB/32kB</td>
+                <td>ROM 32kB</td>
+                <td>&check;</td>
+                <td>&cross;</td>
+                <td>&cross;</td>
+                <td>V/H<sup>*</sup></td>
+                <td><img src="img/2-2.png"></td>
+
+                <td><img src="img/2-1.png"></td>
+                <td><img src="img/3-1.png"></td>
+
+                <td><img src="img/2-1.png"></td>
+                <td><img src="img/3-3.png"></td>
+
+                <td><img src="img/2-1.png"></td>
+
+                <td><img src="img/2-0.png"></td>
+                <td><img src="img/2-2.png"></td>
+
+                <td><img src="img/2-0.png"></td>
+                <td><img src="img/2-2.png"></td>
+                
+                <td><img src="img/3-3.png"></td>
+            </tr>
+            <tr>
+                <td>GNROM</td>
+                <td>ROM 128kB</td>
+                <td>ROM 32kB</td>
+                <td>&check;</td>
+                <td>&cross;</td>
+                <td>&cross;</td>
+                <td>V/H<sup>*</sup></td>
+                <!-- PRG_OE -->
+                <td><img src="img/2-2.png"></td>
+                <!-- CHR_PIN26/27 -->
+                <td><img src="img/2-1.png"></td>
+                <td><img src="img/3-1.png"></td>
+                <!-- 161_Q2/Q3 -->
+                <td><img src="img/2-1.png"></td>
+                <td><img src="img/3-3.png"></td>
+                <!-- PRG_A14 -->
+                <td><img src="img/2-1.png"></td>
+                <!-- PRG_A15 -->
+                <td><img src="img/2-1.png"></td>
+                <td><img src="img/2-0.png"></td>
+                <!-- PRG_A16 -->
+                <td><img src="img/2-0.png"></td>
+                <td><img src="img/2-1.png"></td>
+                <!-- PRG_A17 -->
+                <td><img src="img/3-3.png"></td>
+            </tr>
+            <tr>
+                <td>AMROM</td>
+                <td>ROM 128kB</td>
+                <td>RAM 8kB</td>
+                <td>&check;</td>
+                <td>&cross;</td>
+                <td>&cross;</td>
+                <td><img src="img/3-3.png"></td>
+                <!-- PRG_OE -->
+                <td><img src="img/2-2.png"></td>
+                <!-- CHR_PIN26/27 -->
+                <td><img src="img/2-2.png"></td>
+                <td><img src="img/3-2.png"></td>
+                <!-- 161_Q2/Q3 -->
+                <td><img src="img/2-2.png"></td>
+                <td><img src="img/3-2.png"></td>
+                <!-- PRG_A14 -->
+                <td><img src="img/2-1.png"></td>
+                <!-- PRG_A15 -->
+                <td><img src="img/2-2.png"></td>
+                <td><img src="img/2-0.png"></td>
+                <!-- PRG_A16 -->
+                <td><img src="img/2-2.png"></td>
+                <td><img src="img/2-0.png"></td>
+                <!-- PRG_A17 -->
+                <td><img src="img/3-2.png"></td>
+            </tr>
+            <tr>
+                <td>ANROM<br>AOROM</td>
+                <td>ROM 128kB/256kB</td>
+                <td>RAM 8kB</td>
+                <td>&check;</td>
+                <td>&cross;</td>
+                <td>&check;</td>
+                <td><img src="img/3-3.png"></td>
+                <!-- PRG_OE -->
+                <td><img src="img/2-1.png"></td>
+                <!-- CHR_PIN26/27 -->
+                <td><img src="img/2-2.png"></td>
+                <td><img src="img/3-2.png"></td>
+                <!-- 161_Q2/Q3 -->
+                <td><img src="img/2-2.png"></td>
+                <td><img src="img/3-2.png"></td>
+                <!-- PRG_A14 -->
+                <td><img src="img/2-1.png"></td>
+                <!-- PRG_A15 -->
+                <td><img src="img/2-2.png"></td>
+                <td><img src="img/2-0.png"></td>
+                <!-- PRG_A16 -->
+                <td><img src="img/2-2.png"></td>
+                <td><img src="img/2-0.png"></td>
+                <!-- PRG_A17 -->
+                <td><img src="img/3-2.png"></td>
+            </tr>
+            <tr>
+                <td>BNROM</td>
+                <td>ROM 128kB</td>
+                <td>RAM 8kB</td>
+                <td>&check;</td>
+                <td>&cross;</td>
+                <td>&cross;</td>
+                <td>V/H<sup>*</sup></td>
+                <!-- PRG_OE -->
+                <td><img src="img/2-2.png"></td>
+                <!-- CHR_PIN26/27 -->
+                <td><img src="img/2-2.png"></td>
+                <td><img src="img/3-2.png"></td>
+                <!-- 161_Q2/Q3 -->
+                <td><img src="img/2-2.png"></td>
+                <td><img src="img/3-2.png"></td>
+                <!-- PRG_A14 -->
+                <td><img src="img/2-1.png"></td>
+                <!-- PRG_A15 -->
+                <td><img src="img/2-2.png"></td>
+                <td><img src="img/2-0.png"></td>
+                <!-- PRG_A16 -->
+                <td><img src="img/2-2.png"></td>
+                <td><img src="img/2-0.png"></td>
+                <!-- PRG_A17 -->
+                <td><img src="img/3-2.png"></td>
+            </tr>
+            <tr>
+                <td>UxROM</td>
+                <td>ROM 256kB</td>
+                <td>RAM 8kB</td>
+                <td>&check;</td>
+                <td>&check;</td>
+                <td>&cross;</td>
+                <td>V/H<sup>*</sup></td>
+                <!-- PRG_OE -->
+                <td><img src="img/2-2.png"></td>
+                <!-- CHR_PIN26/27 -->
+                <td><img src="img/2-2.png"></td>
+                <td><img src="img/3-2.png"></td>
+                <!-- 161_Q2/Q3 -->
+                <td><img src="img/2-2.png"></td>
+                <td><img src="img/3-1.png"></td>
+                <!-- PRG_A14 -->
+                <td><img src="img/2-2.png"></td>
+                <!-- PRG_A15 -->
+                <td><img src="img/2-0.png"></td>
+                <td><img src="img/2-1.png"></td>
+                <!-- PRG_A16 -->
+                <td><img src="img/2-1.png"></td>
+                <td><img src="img/2-0.png"></td>
+                <!-- PRG_A17 -->
+                <td><img src="img/3-1.png"></td>
+            </tr>
+        </table>
+        <sup>*</sup> JP1 Setting depends on ROM mirroring:
+        <table>
+            <tr>
+                <th>Vertical</th>
+                <th>Horizontal</th>
+            </tr>
+            <tr>
+                <td><img src="img/3-1.png"></td>
+                <td><img src="img/3-2.png"></td>
+            </tr>
+        </table>
+    </body>
+</html>
